@@ -1,0 +1,8 @@
+.center-div {
+    margin: 100px auto;
+    width: 30%;
+    padding: 5px;
+    border: 2px solid #bdbdbd;
+    border-radius: 3px;
+    height: 400px;
+}

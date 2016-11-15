@@ -6,7 +6,7 @@
 </head>
 <body>
 
-	<div>
+	<div class="center-div">
 		<div class="chat-board"></div>
 		<div class="chat-input">
 		<form>
