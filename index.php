@@ -6,6 +6,12 @@
 </head>
 <body>
 
+	<header>
+		<nav>
+			<button class = "menu-toggle">See More</button>
+		</nav>
+	</header>
+
 	<div class="center-div">
 		<div class="chat-board"></div>
 		<div class="chat-input">
