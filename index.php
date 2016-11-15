@@ -11,8 +11,8 @@
 	<meta name = "author" content = "Qrystal Devs">
 
 	<title>Qristal Devs</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<script src = "jquery-3.1.0.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src = "js/jquery-3.1.0.min.js"></script>
 </head>
 <body>
 	<header>
