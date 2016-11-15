@@ -5,30 +5,52 @@
 
  header {
      padding: 5px;
-     background-color: red;
+     min-height: 35px;
+     border-bottom: 1px solid #d5d5d5;
+     background-color: #F5F5F5;
  }
 
  .other-link {
-     display: ;
-
+     display: block;
+     list-style: none;
  }
 
- .other-link li {
-
- }
-
- .other-link li a {
+ .link a {
+     margin: 0px -5px;
+     padding: 5px;
+     font-size: 1rem;
+     width: 10%;
+     display: block;
      text-decoration: none;
-     color: white;
+     text-align: center;
+     color: black;
+     background-color: #464f50;
+ }
+
+ .link a:hover {
+     background-color: white;
+     color: black;
  }
 
  .menu-toggle {
-     margin-bottom: 10px;
-     padding: 7px;
-     cursor: pointer;
+     padding: 5px;
+     list-style: none;
      outline: none;
-     background-color: #1e90ff;
-     border: 3px solid #2040ff;
+ }
+
+ .menu-toggle a {
+     padding: 5px;
+     margin-bottom: 10px;
+     text-decoration: none;
+     background-color: #464f50;
+     border: 1.5px solid black;
+     color: white;
+     transition: 0.5s;
+ }
+
+ .menu-toggle a:hover {
+     background-color: white;
+     color: #464f50;
  }
 
 .center-div {
@@ -40,7 +62,17 @@
     height: 400px;
 }
 
-input[type="text"] {
-    position: relative;
-    top: 380px;
-}
+ .message-box {
+     position: relative;
+     top: 325px;
+     width: 40%;
+     padding: 5px;
+     transition: all 0.5s;
+     min-height: 60px;
+ }
+
+ .message-box:active, .message-box:focus {
+     outline: ;
+     width: 96%;
+ }
+
