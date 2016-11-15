@@ -39,11 +39,9 @@
  }
 
  .menu-toggle a {
-     padding: 5px;
-     margin-bottom: 10px;
+     padding: 18px 10px;
      text-decoration: none;
      background-color: #464f50;
-     border: 1.5px solid black;
      color: white;
      transition: 0.5s;
  }
