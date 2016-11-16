@@ -1,6 +1,7 @@
  * {
      padding: 0;
      margin: 0;
+     font-family: Lato;
  }
 
  header {
@@ -25,6 +26,8 @@
      text-align: center;
      color: black;
      background-color: #464f50;
+     border-top: 1px solid black;
+     transition: 0.5s;
  }
 
  .link a:hover {
@@ -33,22 +36,19 @@
  }
 
  .menu-toggle {
+     width: 25px;
+     height: 20px;
      padding: 5px;
+     border-radius: 3px;
+     cursor: pointer;
      list-style: none;
      outline: none;
- }
-
- .menu-toggle a {
-     padding: 18px 10px;
-     text-decoration: none;
-     background-color: #464f50;
-     color: white;
+     background-color: #E34351;
      transition: 0.5s;
  }
 
- .menu-toggle a:hover {
-     background-color: white;
-     color: #464f50;
+ .menu-toggle:hover {
+     background-color: #AA0B1F;
  }
 
 .center-div {
@@ -70,7 +70,7 @@
  }
 
  .message-box:active, .message-box:focus {
-     outline: ;
+     outline: none;
+     border: 1px solid #AA0B1F;
      width: 96%;
  }
-

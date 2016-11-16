@@ -17,15 +17,17 @@
 <body>
 	<header>
 		<nav>
-			<li class = "menu-toggle"><a href = "#">See More</a></li>
+			<img class = "menu-toggle" src = "img/menu-2.png">
 		</nav>
 	</header>
-		<ul class = "other-link">
-			<li class = "link"><a href = "#">Home</a></li>
-			<li class = "link"><a href = "#">Your Profile</a></li>
-			<li class = "link"><a href = "#">About</a></li>
-			<li class = "link"><a href = "#">Log Out</a></li>
-		</ul>
+		<div class = "menu">
+			<ul class = "other-link">
+				<li class = "link"><a href = "#">Home</a></li>
+				<li class = "link"><a href = "#">Your Profile</a></li>
+				<li class = "link"><a href = "#">About</a></li>
+				<li class = "link"><a href = "#">Log Out</a></li>
+			</ul>
+		</div>
 	<div
 
 	<div class="center-div">
@@ -42,7 +44,7 @@
 </body>
 <script>
 	$("body").on("click", ".menu-toggle", function(){
-		$(".other-link").toggle("up");
+		$(".other-link").slideToggle();
 	});
 </script>
 </html>
