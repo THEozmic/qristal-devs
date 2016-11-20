@@ -4,7 +4,17 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<!--Meta Tags-->
+	<meta charset = "utf-8">
+	<meta http-equiv = "X-UA-Compatible" content="IE=edge">
+	<meta name = viewport content = "width = device-width, initial-scale = 1.0">
+	<meta name = "description" content = "Easy access and interaction between Qrystal Devs.">
+	<meta name = "keywords" content = "codes, fun, jokes, ideas, individuals, bla bla bla and thingies"/>
+	<meta name = "robots" content = "index, follow"/>
+	<meta name = "author" content = "Qrystal Devs">
+
 	<title>Qristal Devs</title>
+
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<script type="text/javascript" src="jquery.min.js"></script>
  	<script src="moment.min.js"></script>
@@ -41,21 +51,33 @@
 		<nav>
 			<a class ="menu-item" href="do_logout.php">Logout</a>
 			<a class ="menu-item" href="./">Home</a>
+
 		</nav>
 
 	</header>
+		<div class = "menu">
+			<ul class = "other-link">
+				<li class = "link"><a href = "#">Home</a></li>
+				<li class = "link"><a href = "#">Your Profile</a></li>
+				<li class = "link"><a href = "#">About</a></li>
+				<li class = "link"><a href = "#">Log Out</a></li>
+			</ul>
+		</div>
+	<div
 
 	<div class="center-div">
 		<div class="chat-board">
 
 		</div>
 		<div class="chat-input">
+
 		<form class="chat-form" id="chat-form">
-			<input type="text" placeholder="Type your message here..." name="message" class="message-input">
+			<textarea name="text" placeholder = "Type your message here..." class = "message-input"></textarea>
 
 			<button class="message-btn">Send</button>
 			<input style="display: none" type="text" name="user_id" value="<?php echo $_SESSION["user_id"];?>">
 			<input type="text" name="time_sent" class="time" style="display: none;" value="<?php echo time();?>">
+
 
 		</form>
 
@@ -223,4 +245,9 @@
 
  	</script>
 </body>
+<script>
+	$("body").on("click", ".menu-toggle", function(){
+		$(".other-link").slideToggle();
+	});
+</script>
 </html>
